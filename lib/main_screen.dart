@@ -3,6 +3,9 @@ import 'package:weather_app/const_and_colors.dart';
 
 // ignore: use_key_in_widget_constructors
 class Main_screen extends StatefulWidget {
+  Main_screen({this.locationWeather});
+  final locationWeather;
+
   @override
   State<Main_screen> createState() => _Main_screenState();
 }
